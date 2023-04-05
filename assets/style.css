@@ -5,12 +5,13 @@
 }
 
 .header {
-    background-color: tan;
+    background-color: paleturquoise;
     color: white;
     border: solid black 2px;
     text-align: left;
     padding: 20px;
-    height: 90px
+    height: 90px;
+    font-family: sans-serif;
 }
 
 .header h1 {
@@ -24,7 +25,7 @@
 }
 
 .header a {
-    color: white;
+    color: grey;
     display: flex;
     text-align: right;
 }
@@ -36,8 +37,96 @@
 }
 
 .subtitle {
-    background-image: "./images/landscape1.jpeg";
+    background-image: url("../images/Landscape1.jpeg");
     background-size: cover;
     background-position: center;
-    height: auto;
+    height: 150px;
+    text-align: right;
+}
+
+.subtitle p {
+    background-color: aliceblue;
+    text-align: right;
+}
+
+.about-me h1 {
+    font-size: 50px;
+}
+
+.about-me p {
+    text-align: right;
+}
+
+.surf-report {
+    background-image: url("../images/Landscape2.jpg");
+    background-size: cover;
+    background-position: center;
+    max-width: 20%;
+}
+
+.led-wall {
+    background-image: url("../images/Landscape7.jpg");
+    background-size: cover;
+    background-position: center;
+    max-width: 20%;
+}
+
+.calculator {
+    background-image: url("../images/Landscape3.jpg");
+    background-size: cover;
+    background-position: center;
+    max-width: 20%;
+}
+
+.run-buddy {
+    background-image: url("../images/Landscape4.jpg");
+    background-size: cover;
+    background-position: center;
+    max-width: 20%;
+}
+
+.pastel-puzzel {
+    background-image: url("../images/Landscape5.jpg");
+    background-size: cover;
+    background-position: center;
+    max-width: 20%;
+}
+
+.buddy {
+    background-image: url("../images/Landscape6.jpg");
+    background-size: cover;
+    background-position: center;
+    max-width: 20%;
+}
+
+.contact-me {
+    background-color: paleturquoise;
+    color: white;
+    border: solid black 2px;
+    text-align: left;
+    padding: 20px;
+    height: 90px;
+    font-family: sans-serif;
+}
+
+.contact-me ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+.contact-me a {
+    color: grey;
+    display: flex;
+    text-align: right;
+}
+
+.contact-me ul li {
+        display: inline-block;
+        margin-left: 25px;
+        text-align: right;
+}
+
+footer {
+    background-color: paleturquoise;
+    color: grey;
 }
