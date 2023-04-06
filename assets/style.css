@@ -11,7 +11,7 @@
     text-align: left;
     padding: 20px;
     height: 90px;
-    font-family: sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .header h1 {
@@ -61,42 +61,42 @@
     background-image: url("../images/Landscape2.jpg");
     background-size: cover;
     background-position: center;
-    max-width: 20%;
+    max-width: 10%;
 }
 
 .led-wall {
     background-image: url("../images/Landscape7.jpg");
     background-size: cover;
     background-position: center;
-    max-width: 20%;
+    max-width: 10%;
 }
 
 .calculator {
     background-image: url("../images/Landscape3.jpg");
     background-size: cover;
     background-position: center;
-    max-width: 20%;
+    max-width: 10%;
 }
 
 .run-buddy {
     background-image: url("../images/Landscape4.jpg");
     background-size: cover;
     background-position: center;
-    max-width: 20%;
+    max-width: 10%;
 }
 
 .pastel-puzzel {
     background-image: url("../images/Landscape5.jpg");
     background-size: cover;
     background-position: center;
-    max-width: 20%;
+    max-width: 10%;
 }
 
 .buddy {
     background-image: url("../images/Landscape6.jpg");
     background-size: cover;
     background-position: center;
-    max-width: 20%;
+    max-width: 10%;
 }
 
 .contact-me {
@@ -104,7 +104,6 @@
     color: white;
     border: solid black 2px;
     text-align: left;
-    padding: 20px;
     height: 90px;
     font-family: sans-serif;
 }

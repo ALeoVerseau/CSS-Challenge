@@ -1,0 +1,83 @@
+* {
+    /* outline: red 1px solid; */
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: paleturquoise;
+    color: white;
+    border: solid black 2px;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.header a {
+    color: grey;
+    display: flex;
+    text-align: right;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin: 0px;
+     list-style-type: none;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+figure {
+    height: 200px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0px;
+    background-image: url(../images/Landscape1.jpeg);
+    background-size: cover;
+    background-position: 0 40%;
+}
+
+figure h2 {
+    background-color: rgb(0, 119, 255);
+    color: white;
+    padding: 10px;
+}
+
+main {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    /* outline: 1px blue solid; */
+    height: 33%;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.left-column {
+    flex: 2;
+    border-right: 2px gray solid;
+}
+
+.right-column {
+    flex: 8;
+    padding: 20px;
+}
